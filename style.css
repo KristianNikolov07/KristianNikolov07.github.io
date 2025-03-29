@@ -1,0 +1,101 @@
+body{
+    background-color: bisque;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.games_wigets{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game{
+    padding: 40px;
+}
+
+.plugin{
+    width: 500px;
+    height: 200px;
+    border: 1px white solid;
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    margin: 45px;
+}
+
+.modrinth_button {
+	background-color:#44c767;
+	border-radius:9px;
+	border:1px solid #44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:12px 48px;
+	text-decoration:none;
+}
+.modrinth_button:hover {
+	background-color:rgb(81, 167, 37);
+}
+.modrinth_button:active {
+	position:relative;
+	top:1px;
+}
+
+.other_button {
+	background-color:#4485c7;
+	border-radius:9px;
+	border:1px solid #4485c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:12px 48px;
+	text-decoration:none;
+}
+.other_button:hover {
+	background-color:#35699d;
+}
+.other_button:active {
+	position:relative;
+	top:1px;
+}
+
+.button_a{
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.navbar{
+    background-color: rgb(255, 208, 151);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 190, 110);
+}
