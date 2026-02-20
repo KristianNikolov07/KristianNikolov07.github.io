@@ -1,139 +1,123 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Kristian Nikolov</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kristian Nikolov</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#my-games">My Games</a></li>
+        <li><a href="#worked-on">Worked On</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#games">My Games</a></li>
-                <li><a href="#collaborations">Games I've Worked On</a></li>
-                <li><a href="#mc_plugins">My Minecraft Plugins</a></li>
-                <li><a href="#other">Other</a></li>
-            </ul>
-        </nav>
-        <br>
-        <br>
-        <br>
-
-        <div id="games">
-            <h1 class="title">My Games</h1>
-
-            <div class="games_wigets">
-                <div class="game">
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=QevKqe75" frameborder="0" width="552" height="167"></iframe>
-                 </div>
-
-                 <div class="game">
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=9pqpwp4Y" frameborder="0" width="552" height="167"></iframe>
-                 </div>
-
-                 <div class="game">
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=7T9j2LQ3" frameborder="0" width="552" height="167"></iframe>
-                 </div>
-
-                <div class="game">
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=YLZmCtET" frameborder="0" width="552" height="167"></iframe>
-                 </div>
-            </div>  
+  <main>
+    <section id="about" class="section about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I'm Kris, a passionate game developer from Bulgaria. I am 18 years old, currently 12th grade
+            in TUES.
+          </p>
+          <p>
+            When I'm not coding, you'll find me playing games, experimenting with 
+            new engines, messing around with Linux or diving into modding communities.
+          </p>
         </div>
+      </div>
+    </section>
 
-        <div id="collaborations">
-            <h1 class="title">Games I've worked on</h1>
+    <section id="my-games" class="section">
+      <h2 class="section-title">My Games</h2>
+      <div class="card-grid">
+        <a href="https://kris-nikolov.itch.io/stranded-shores" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/stranded-shores.gif" alt="Stranded Shores">
+          </div>
+          <h3>Stranded Shores</h3>
+          <p>An open source 2D top-down survival game, originally made for my 12th grade diploma project.</p>
+        </a>
+        <a href="https://kris-nikolov.itch.io/cheat-me" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/cheat-me.png" alt="Cheat Me">
+          </div>
+          <h3>Cheat Me</h3>
+          <p>A unique puzzle game where you use Cheat Engine to solve puzzles.</p>
+        </a>
+        <a href="https://kris-nikolov.itch.io/jump-and-warp" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/jump-and-warp.png" alt="Jump and Warp">
+          </div>
+          <h3>Jump and Warp</h3>
+          <p>A short 2D platformer game with the gimmick of warping between two dimensions.</p>
+        </a>
+        <a href="https://kris-nikolov.itch.io/match-and-scratch" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/match-and-scratch.png" alt="Match and Scratch">
+          </div>
+          <h3>Match and Scratch</h3>
+          <p>A 2D top-down puzzle game. Also my first game ever.</p>
+        </a>
+        <a href="https://kris-nikolov.itch.io/path-of-puzzles" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/path-of-puzzles.png" alt="Path of Puzzles">
+          </div>
+          <h3>Path of Puzzles</h3>
+          <p>A short 2D puzzle game about solving randomly generated puzzles. Originally made for a school project. My first Unity game.</p>
+        </a>
+        <a href="https://kris-nikolov.itch.io/square-fall" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/square-fall.png" alt="Square Fall">
+          </div>
+          <h3>Square Fall</h3>
+          <p>A simple game I made when learning SFML.</p>
+        </a>
+      </div>
+    </section>
 
-            <div class="games_wigets">
-                <div class="game">
-                    <iframe frameborder="0" src="https://itch.io/embed/2972111" width="552" height="167"></iframe>
-                    <br>
-                    <br>
-                    <!--
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=QevKqe75" frameborder="0" width="552" height="167"></iframe>
-                -->
-                </div>
-
-                <div class="game">
-                    <iframe frameborder="0" src="https://itch.io/embed/2540654" width="552" height="167"></iframe>
-                    <br>
-                    <br>
-                    <!--
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=QevKqe75" frameborder="0" width="552" height="167"></iframe>
-                -->
-                </div>
-
-                <div class="game">
-                    <iframe frameborder="0" src="https://itch.io/embed/3794188" width="552" height="167"></iframe>
-                    <br>
-                    <br>
-                    <!--
-                    <iframe src="https://widgets.gamejolt.com/package/v1?key=QevKqe75" frameborder="0" width="552" height="167"></iframe>
-                -->
-                </div>
-
-                <div class="plugin">
-                    <h2>Overworked</h2>
-                    <p>A co-op multiplayer game, originally made for HackTUES11. Still in development</p>
-                    <a class="button_a" href="https://github.com/KristianNikolov07/Overworked"><button class="other_button" >More info here</button></a>
-                </div>
-            </div>  
-        </div>
-
-        <div id="mc_plugins">
-            <h1 class="title">My Minecraft Plugins</h1>
-
-            <div class="games_wigets">
-                <div class="plugin">
-                    <h2>Time Missing</h2>
-                    <p>A Spigot plugin that shows for how long a player wasn't on the server.</p>
-                    <a class="button_a" href="https://modrinth.com/plugin/time-missing"><button class="modrinth_button" >Get on Modrinth</button></a>
-                </div>
-                <div class="plugin">
-                    <h2>Book Edit</h2>
-                    <p>A spigot plugin that allows a player to add colors and effects to texts in books in vanilla.</p>
-                    <a class="button_a" href="https://modrinth.com/plugin/book-edit"><button class="modrinth_button" >Get on Modrinth</button></a>
-                </div>
-                <div class="plugin">
-                    <h2>Chain Creeper Explosions</h2>
-                    <p>A plugin the makes creepers ignite after an explosion or after being lit on fire.</p>
-                    <a class="button_a" href="https://modrinth.com/plugin/chain-creeper-explosions"><button class="modrinth_button" >Get on Modrinth</button></a>
-                </div>
-            </div>
-        </div>
-
-        <div id="other">
-            <h1 class="title">Other Stuff</h1>
-            <div class="games_wigets">
-                <div class="plugin">
-                    <h2>RiceBOX</h2>
-                    <p>A custom RaspberryPI gaming console</p>
-                    <a class="button_a" href="https://github.com/The-RiceBOX-Project/RiceBOX"><button class="other_button" >More info here</button></a>
-                </div>
-                
-                <div class="plugin">
-                    <h2>MC Video Importer</h2>
-                    <p>A program that imports videos to Minecraft</p>
-                    <a class="button_a" href="https://github.com/KNProNooob/mc-video-importer"><button class="other_button" >More info here</button></a>
-                </div>
-
-                
-                <div class="plugin">
-                    <h2>PetSafe</h2>
-                    <p>Tracker for protecting pets and valuables using the helium network via LoRaWan communication made for HackTUES 9.</p>
-                    <a class="button_a" href="https://security.hacktues.bg/teams/27"><button class="other_button" >More info here</button></a>
-                </div>
-
-                <div class="plugin">
-                    <h2>Scanaryo</h2>
-                    <p>An application for visualization and downloading models from a 3D scanner made for HackTUES X.</p>
-                    <a class="button_a" href="https://x.hacktues.bg/teams/smth"><button class="other_button" >More info here</button></a>
-                </div>
-            </div>
-        </div>
-    </body>
+    <section id="worked-on" class="section">
+      <h2 class="section-title">Games I've Worked On</h2>
+      <div class="card-grid">
+        <a href="https://m41t4p-games.itch.io/snifb" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/snifb.png" alt="Six Nights in Frenski's Basement">
+          </div>
+          <h3>Six Nights in Frenski's Basement</h3>
+          <p>A funny FNaF fan game me and my friends made inspired by our history teacher.</p>
+        </a>
+        <a href="https://m41t4p-games.itch.io/invictus-somakan" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/invictus-somakan.gif" alt="Invictus: Somakan">
+          </div>
+          <h3>Invictus: Somakan</h3>
+          <p>A 2D roguelite game. Originally made for me and my friends' 11th grade summer practice.</p>
+        </a>
+        <a href="https://github.com/m41t4p-games/overworked" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/overworked.png" alt="Overworked">
+          </div>
+          <h3>Overworked</h3>
+          <p>A 2D co-op factory game. Originally made for HackTUES11.</p>
+        </a>
+        <a href="https://m41t4p-games.itch.io/not-the-fish" class="card">
+          <div class="card-image-wrap">
+            <img class="card-image" src="images/not-the-fish.png" alt="Not the Fish">
+          </div>
+          <h3>Not the Fish</h3>
+          <p>A 2D short top-down survival game. Originally made for the Brackeys Game Jam 2024.2.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
-
-
