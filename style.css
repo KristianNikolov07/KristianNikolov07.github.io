@@ -5,6 +5,8 @@ html{
 
 header{
   position: fixed;
+  display:flex;
+  justify-content:space-between;
   left: 0;
   top: 0;
   padding: 10px;
@@ -13,11 +15,17 @@ header{
   font-size: 15px
 }
 
-nav{
+.navigation{
   display: flex;
-  justify-content: center;
   gap: 20px;
-  width: 100%;
+  padding-left: 10%
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+  justify-content:flex-end;
+  padding-right: 10% 
 }
 
 a{
@@ -41,6 +49,18 @@ h3{
 
 p{
   color: #ebdbb2
+}
+
+.fa-brands{
+  transition: color 0.5s ;
+}
+
+.fa-linkedin:hover{
+  color: #0a66c2
+}
+
+.fa-itch-io:hover{
+  color: #db2c48
 }
 
 main{
