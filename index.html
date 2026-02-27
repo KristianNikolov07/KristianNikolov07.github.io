@@ -1,123 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kristian Nikolov</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="header">
-    <nav class="nav">
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#my-games">My Games</a></li>
-        <li><a href="#worked-on">Worked On</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about" class="section about">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p>
-            Hi, I'm Kris, a passionate game developer from Bulgaria. I am 18 years old, currently 12th grade
-            in TUES.
-          </p>
-          <p>
-            When I'm not coding, you'll find me playing games, experimenting with 
-            new engines, messing around with Linux or diving into modding communities.
-          </p>
+<html>
+  <head>
+    <title>Kris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#games">My Games</a>
+        <a href="#colabs">Games I've worked on</a>
+      </nav>
+    </header>
+    <main>
+      <div id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Kris, a passionate game developer from Bulgaria. I am 18 years old, currently 12th grade in TUES.</p>
+        <p>When I'm not coding, you'll find me playing games, experimenting with new engines, messing around with Linux or diving into modding communities.</p>
+      </div>
+      <div id="games">
+        <h2>My Games</h2>
+        <div class="section">
+          <a href="https://kris-nikolov.itch.io/stranded-shores">
+            <div class="project">
+              <img class="project-image" src="images/stranded-shores.gif">
+              <h3>Stranded Shores</h3>
+              <p>An open source 2D top-down survival game, originally made for my 12th grade diploma project.</p>
+            </div>
+          </a>
+          <a href="https://kris-nikolov.itch.io/cheat-me">
+            <div class="project">
+              <img class="project-image" src="images/cheat-me.png">
+              <h3>Cheat Me</h3>
+              <p>A unique puzzle game where you use Cheat Engine to solve puzzles.</p>
+            </div>
+          </a>
+          <a href="https://kris-nikolov.itch.io/jump-and-warp">
+            <div class="project">
+              <img class="project-image" src="images/jump-and-warp.png">
+              <h3>Jump and Warp</h3>
+              <p>A short platformer game with the gimmic of warping between two different dimensions.</p>
+            </div>
+          </a> 
+          <a href="https://kris-nikolov.itch.io/match-and-scratch">
+            <div class="project">
+              <img class="project-image" src="images/match-and-scratch.png">
+              <h3>Match And Scratch</h3>
+              <p>A 2D top-down puzzle game. Also my first game ever.</p>
+            </div>
+          </a> 
+          <a href="https://kris-nikolov.itch.io/path-of-puzzles">
+            <div class="project">
+              <img class="project-image" src="images/path-of-puzzles.png">
+              <h3>Path of Puzzles</h3>
+              <p>A short 2D puzzle game about solving randomly generated puzzles. Originally made for a school project. My first Unity game.</p>
+            </div>
+          </a> 
+          <a href="https://kris-nikolov.itch.io/square-fall">
+            <div class="project">
+              <img class="project-image" src="images/square-fall.png">
+              <h3>Square Fall</h3>
+              <p>A simple game I made when learning SFML.</p>
+            </div>
+          </a>
         </div>
       </div>
-    </section>
+      <div id="colabs">
+        <h2>Games I've worked on</h2>
+        <div class="section">
+          <a href="https://m41t4p-games.itch.io/snifb">
+            <div class="project">
+              <img class="project-image" src="images/snifb.png">
+              <h3>Six Nights in Frenski's Basement</h3>
+              <p>A funny FNaF fan game me and my friends made, inspired by our history teacher.</p>
+            </div>
+          </a>
+          <a href="https://m41t4p-games.itch.io/invictus-somakan">
+            <div class="project">
+              <img class="project-image" src="images/invictus-somakan.gif">
+              <h3>Invictus Somakan</h3>
+              <p>A 2D roguelite game. Originally made for me and my friends' 11th grade summer practice.</p>
+            </div>
+          </a>
+          <a href="https://m41t4p-games.itch.io/not-the-fish">
+            <div class="project">
+              <img class="project-image" src="images/not-the-fish.png">
+              <h3>Not the Fish!</h3>
+              <p>A 2D short top-down survival game. Originally made for the Brackeys Game Jam 2024.2.</p>
+            </div>
+          </a>
+          <a href="https://github.com/m41t4p-games/overworked">
+            <div class="project">
+              <img class="project-image" src="images/overworked.png">
+              <h3>Overworked</h3>
+              <p>A 2D co-op factory game. Originally made for HackTUES11.</p>
+            </div>
+          </a>
 
-    <section id="my-games" class="section">
-      <h2 class="section-title">My Games</h2>
-      <div class="card-grid">
-        <a href="https://kris-nikolov.itch.io/stranded-shores" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/stranded-shores.gif" alt="Stranded Shores">
-          </div>
-          <h3>Stranded Shores</h3>
-          <p>An open source 2D top-down survival game, originally made for my 12th grade diploma project.</p>
-        </a>
-        <a href="https://kris-nikolov.itch.io/cheat-me" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/cheat-me.png" alt="Cheat Me">
-          </div>
-          <h3>Cheat Me</h3>
-          <p>A unique puzzle game where you use Cheat Engine to solve puzzles.</p>
-        </a>
-        <a href="https://kris-nikolov.itch.io/jump-and-warp" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/jump-and-warp.png" alt="Jump and Warp">
-          </div>
-          <h3>Jump and Warp</h3>
-          <p>A short 2D platformer game with the gimmick of warping between two dimensions.</p>
-        </a>
-        <a href="https://kris-nikolov.itch.io/match-and-scratch" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/match-and-scratch.png" alt="Match and Scratch">
-          </div>
-          <h3>Match and Scratch</h3>
-          <p>A 2D top-down puzzle game. Also my first game ever.</p>
-        </a>
-        <a href="https://kris-nikolov.itch.io/path-of-puzzles" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/path-of-puzzles.png" alt="Path of Puzzles">
-          </div>
-          <h3>Path of Puzzles</h3>
-          <p>A short 2D puzzle game about solving randomly generated puzzles. Originally made for a school project. My first Unity game.</p>
-        </a>
-        <a href="https://kris-nikolov.itch.io/square-fall" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/square-fall.png" alt="Square Fall">
-          </div>
-          <h3>Square Fall</h3>
-          <p>A simple game I made when learning SFML.</p>
-        </a>
+        </div>
       </div>
-    </section>
-
-    <section id="worked-on" class="section">
-      <h2 class="section-title">Games I've Worked On</h2>
-      <div class="card-grid">
-        <a href="https://m41t4p-games.itch.io/snifb" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/snifb.png" alt="Six Nights in Frenski's Basement">
-          </div>
-          <h3>Six Nights in Frenski's Basement</h3>
-          <p>A funny FNaF fan game me and my friends made inspired by our history teacher.</p>
-        </a>
-        <a href="https://m41t4p-games.itch.io/invictus-somakan" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/invictus-somakan.gif" alt="Invictus: Somakan">
-          </div>
-          <h3>Invictus: Somakan</h3>
-          <p>A 2D roguelite game. Originally made for me and my friends' 11th grade summer practice.</p>
-        </a>
-        <a href="https://github.com/m41t4p-games/overworked" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/overworked.png" alt="Overworked">
-          </div>
-          <h3>Overworked</h3>
-          <p>A 2D co-op factory game. Originally made for HackTUES11.</p>
-        </a>
-        <a href="https://m41t4p-games.itch.io/not-the-fish" class="card">
-          <div class="card-image-wrap">
-            <img class="card-image" src="images/not-the-fish.png" alt="Not the Fish">
-          </div>
-          <h3>Not the Fish</h3>
-          <p>A 2D short top-down survival game. Originally made for the Brackeys Game Jam 2024.2.</p>
-        </a>
-      </div>
-    </section>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
