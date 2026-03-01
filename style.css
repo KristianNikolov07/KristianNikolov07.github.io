@@ -7,6 +7,7 @@ header{
   position: fixed;
   display:flex;
   justify-content:space-between;
+  align-content: center;
   left: 0;
   top: 0;
   padding: 10px;
@@ -17,6 +18,7 @@ header{
 
 .navigation{
   display: flex;
+  align-content:center;
   gap: 20px;
   padding-left: 10%
 }
@@ -24,6 +26,7 @@ header{
 .social{
   display: flex;
   gap: 20px;
+  align-content: center;
   justify-content:flex-end;
   padding-right: 10% 
 }
@@ -70,17 +73,16 @@ main{
 }
 
 .section{
-  display: flex;
+  display: grid;
   margin-bottom: 25px;
   margin-top: 25px;
   gap: 20px;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center
 }
 
 .project{
   background-color:#32302f;
-  width: 300px;
   height: 300px;
   border-radius: 10px;
   padding: 20px;
