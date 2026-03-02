@@ -10,10 +10,9 @@ header{
   align-content: center;
   left: 0;
   top: 0;
-  padding: 10px;
+  padding: 20px;
   background-color: #1d2021;
   width: 100%;
-  font-size: 15px
 }
 
 .navigation{
@@ -27,7 +26,6 @@ header{
   display: flex;
   gap: 20px;
   align-content: center;
-  justify-content:flex-end;
   padding-right: 10% 
 }
 
@@ -42,6 +40,10 @@ a:hover{
   color: #458588;
 }
 
+#about{
+  max-width: 640px;
+}
+
 h2{
   color: #458588;
 }
@@ -51,7 +53,7 @@ h3{
 } 
 
 p{
-  color: #ebdbb2
+  color: #a89984;
 }
 
 .fa-brands{
